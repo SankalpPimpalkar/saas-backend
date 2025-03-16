@@ -1,0 +1,7 @@
+scripts:
+  server:
+    - cd src && python manage.py runserver
+  install:
+    - pip install -r requirements.txt
+  migration:
+    - cd src && python manage.py makemigrations && python manage.py migrate
